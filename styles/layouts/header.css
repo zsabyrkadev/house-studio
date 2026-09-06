@@ -22,3 +22,17 @@
   font-size: 20px;
   color: var(--color-accent-darker);
 }
+
+.header__cart-button {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .header__inner {
+    padding-inline: 40px;
+  }
+
+  .header__menu-link {
+    font-size: 18px;
+  }
+}
