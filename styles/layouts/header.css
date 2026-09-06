@@ -1,0 +1,24 @@
+.header {
+  padding-block: 32px;
+  background-color: var(--color-accent-lighter);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.header__menu {
+  margin-left: auto;
+}
+
+.header__menu-list {
+  display: flex;
+  column-gap: 60px;
+}
+
+.header__menu-link {
+  font-size: 20px;
+  color: var(--color-accent-darker);
+}

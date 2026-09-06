@@ -13,11 +13,17 @@ svg * {
 }
 
 a {
+  text-decoration: none;
   color: var(--color-dark);
 
   &:hover {
     color: var(--color-accent-muted);
   }
+}
+
+button {
+  background-color: transparent;
+  border: none;
 }
 
 h1,
