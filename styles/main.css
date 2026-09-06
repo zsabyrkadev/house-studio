@@ -1,7 +1,9 @@
-@import 'base/normalize.css';
-@import 'base/fonts.css';
-@import 'base/variables.css';
-@import 'base/utils.css';
-@import 'base/globals.css';
+@import "base/normalize.css";
+@import "base/fonts.css";
+@import "base/variables.css";
+@import "base/utils.css";
+@import "base/globals.css";
 
-@import 'layouts/header.css';
+@import "components/logo.css";
+
+@import "layouts/header.css";

@@ -12,19 +12,27 @@ svg * {
   transition-duration: var(--transition-duration);
 }
 
-a {
-  text-decoration: none;
-  color: var(--color-dark);
-
+a,
+button {
   &:hover {
     color: var(--color-accent-muted);
   }
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-dark);
+}
+
 button {
+  display: flex;
   padding-inline: 0;
   background-color: transparent;
   border: none;
+
+  &:active {
+    scale: 0.97;
+  }
 }
 
 h1,
