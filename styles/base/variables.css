@@ -1,0 +1,25 @@
+:root {
+  --color-dark: #2c2d35;
+  --color-light: #f4f6f5;
+
+  --color-accent-lighter: #e1ede6;
+  --color-accent-light: #d4e8d9;
+  --color-accent-muted: #86928b;
+  --color-accent: #598d66;
+  --color-accent-dark: #376b44;
+  --color-accent-darker: #2c2d35;
+
+  --color-yellow: #eedb6d;
+
+  --border: 1px solid var(--color-accent);
+  --border-radius: 20px;
+
+  --button-height: 65px;
+
+  --font-family-base: "Raleway", sans-serif;
+
+  --container-width: 1110px;
+  --container-padding-x: 15px;
+
+  --transition-duration: 0.2s;
+}
