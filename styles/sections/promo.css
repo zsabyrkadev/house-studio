@@ -14,6 +14,7 @@
 
 .promo__logo {
   display: flex;
+  align-items: center;
   column-gap: 20px;
 
   &:not(:last-child) {
@@ -22,10 +23,70 @@
 }
 
 .promo__logo-label {
-  line-height: 1;
   color: var(--color-light);
 }
 
 .promo__description {
+  max-width: 540px;
   color: var(--color-light);
+}
+
+@media (max-width: 768px) {
+  .promo {
+    background-image: url("../../images/promo/promo-bg-tablet.jpg");
+  }
+
+  .promo__inner {
+    padding-inline: 40px;
+  }
+
+  .promo__logo-icon {
+    width: 60px;
+    aspect-ratio: 1;
+  }
+
+  .promo__info,
+  .promo__logo {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .promo__inner {
+    padding: 50px 32px;
+  }
+
+  .promo__logo-icon {
+    width: 50px;
+    aspect-ratio: 1;
+  }
+
+  .promo__info,
+  .promo__logo {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .promo__inner {
+    padding-inline: var(--container-padding-x);
+  }
+
+  .promo__info {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .promo__logo {
+    column-gap: 10px;
+  }
+
+  .promo__button {
+    width: 100%;
+  }
 }
