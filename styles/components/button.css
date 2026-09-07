@@ -10,3 +10,23 @@
     background-color: var(--color-accent);
   }
 }
+
+@media (max-width: 768px) {
+  .button {
+    height: 60px;
+    padding-inline: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .button {
+    height: 50px;
+    padding-inline: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding-inline: 30px;
+  }
+}

@@ -4,6 +4,11 @@
   column-gap: 30px;
 }
 
+.hero__image {
+  max-width: 50%;
+  height: auto;
+}
+
 .hero__info,
 .hero__body {
   display: flex;
@@ -20,4 +25,39 @@
 
 .hero__button {
   align-self: start;
+}
+
+@media (max-width: 768px) {
+  .hero__body {
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding-block: 50px;
+  }
+
+  .hero__body,
+  .hero__info {
+    row-gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-block: 60px;
+  }
+
+  .hero__image {
+    display: none;
+  }
+
+  .hero__body {
+    row-gap: 40px;
+  }
+
+  .hero__info {
+    row-gap: 20px;
+  }
 }
