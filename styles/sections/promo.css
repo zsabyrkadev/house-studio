@@ -1,0 +1,31 @@
+.promo {
+  background: url("../../images/promo/promo-bg.jpg") center / cover no-repeat;
+}
+
+.promo__inner {
+  padding-block: 70px;
+}
+
+.promo__info {
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+
+.promo__logo {
+  display: flex;
+  column-gap: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.promo__logo-label {
+  line-height: 1;
+  color: var(--color-light);
+}
+
+.promo__description {
+  color: var(--color-light);
+}

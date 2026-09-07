@@ -9,6 +9,17 @@
     color: var(--color-light);
     background-color: var(--color-accent);
   }
+
+  &.yellow {
+    color: var(--color-dark);
+    background-color: var(--color-yellow);
+    border: 1px solid var(--color-yellow);
+
+    &:hover {
+      color: var(--color-yellow);
+      background-color: transparent;
+    }
+  }
 }
 
 @media (max-width: 768px) {
