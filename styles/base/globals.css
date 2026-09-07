@@ -41,7 +41,9 @@ button {
 h1,
 .h1,
 h2,
-.h2 {
+.h2,
+h3,
+.h3 {
   font-weight: 500;
   line-height: 1.1;
   color: var(--color-dark);
@@ -54,12 +56,12 @@ h1,
 
 h2,
 .h2 {
-  font-size: 40px;
+  font-size: clamp(24px, 3.33vw, 40px);
 }
 
 h3,
 .h3 {
-  font-size: 30px;
+  font-size: clamp(24px, 2.5vw, 30px);
 }
 
 h4,

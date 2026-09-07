@@ -1,0 +1,39 @@
+.reproductions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.reproductions__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reproductions__tabs {
+  display: flex;
+  column-gap: 32px;
+}
+
+.reproductions__tab {
+  height: 43px;
+  padding-inline: 20px;
+  color: var(--color-accent-darker);
+  background-color: var(--color-accent-light);
+  border-radius: var(--border-radius);
+
+  &:hover,
+  &.is-active {
+    color: var(--color-light);
+    background-color: var(--color-accent-dark);
+  }
+
+  &.is-active {
+    pointer-events: none;
+  }
+}
+
+.reproductions__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

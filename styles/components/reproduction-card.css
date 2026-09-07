@@ -1,0 +1,42 @@
+.reproduction-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px 20px 30px;
+  background-color: var(--color-accent-lighter);
+}
+
+.reproduction-card__author {
+  color: var(--color-accent-muted);
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.reproduction-card__title {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.reproduction-card__material {
+  color: var(--color-dark);
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.reproduction-card__price {
+  font-size: 24px;
+  color: var(--color-accent);
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.reproduction-card__button {
+  width: 100%;
+}

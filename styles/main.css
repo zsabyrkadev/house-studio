@@ -7,7 +7,9 @@
 @import "components/logo.css";
 @import "components/burger-button.css";
 @import "components/button.css";
+@import "components/reproduction-card.css";
 
 @import "layouts/header.css";
 
 @import "sections/hero.css";
+@import "sections/reproductions.css";
