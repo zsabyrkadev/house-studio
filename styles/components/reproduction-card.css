@@ -39,4 +39,23 @@
 
 .reproduction-card__button {
   width: 100%;
+  padding-inline: 0;
+}
+
+@media (max-width: 768px) {
+  .reproduction-card {
+    row-gap: 15px;
+  }
+
+  .reproduction-card__price {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 5204px) {
+  .reproduction-card__image {
+    width: 100%;
+  }
 }

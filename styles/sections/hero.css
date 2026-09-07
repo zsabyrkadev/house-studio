@@ -60,4 +60,8 @@
   .hero__info {
     row-gap: 20px;
   }
+
+  .hero__title {
+    max-width: 285px;
+  }
 }
