@@ -18,7 +18,7 @@
             height="35"
           />
         </a>
-        <nav class="header__menu">
+        <nav class="header__menu" id="header-menu">
           <ul class="header__menu-list">
             <li class="header__menu-item">
               <a href="/" class="header__menu-link">Репродукции</a>
@@ -31,6 +31,17 @@
             </li>
           </ul>
         </nav>
+        <button
+          class="header__burger-button burger-button"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="header-menu"
+        >
+          <span class="burger-button__line"></span>
+          <span class="burger-button__line"></span>
+          <span class="burger-button__line"></span>
+        </button>
         <button class="header__cart-button" type="button">
           <svg
             width="24"
@@ -76,5 +87,6 @@
         </button>
       </div>
     </header>
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>

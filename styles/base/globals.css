@@ -4,6 +4,10 @@ body {
   font-size: 18px;
   color: var(--color-accent-muted);
   background-color: var(--color-light);
+
+  &.is-menu-open {
+    overflow: hidden;
+  }
 }
 
 a,
