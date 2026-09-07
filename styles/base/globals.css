@@ -29,7 +29,6 @@ a {
 }
 
 button {
-  display: flex;
   padding-inline: 0;
   background-color: transparent;
   border: none;

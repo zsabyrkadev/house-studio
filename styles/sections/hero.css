@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.hero__info,
+.hero__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__info {
+  row-gap: 20px;
+}
+
+.hero__body {
+  row-gap: 60px;
+}
+
+.hero__button {
+  align-self: start;
+}

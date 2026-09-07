@@ -4,6 +4,10 @@
   padding-inline: var(--container-padding-x);
 }
 
+.accent {
+  color: var(--color-accent);
+}
+
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
